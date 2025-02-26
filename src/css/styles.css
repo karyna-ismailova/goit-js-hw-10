@@ -1,18 +1,49 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+:root{
+  font-family: "Montserrat", sans-serif;
+font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+.timer {
+display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.field {
+display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.value {
+  font-size: 40px;
+  line-height: 1.2;
+    letter-spacing: 0.04em;
+  
+}
+
+.label {
+
+  text-transform: uppercase;
+}
+.flatpickr-input{
+
+    width: 272px;
+      height: 40px;
+      margin-bottom: 32px;
+      margin-top: 36px;
+}
+
+button{
+  border-radius: 8px;
+    padding: 8px 16px;
+    width: 75px;
+    height: 40px;
+}
