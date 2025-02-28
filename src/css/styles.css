@@ -41,9 +41,24 @@ display: flex;
       margin-top: 36px;
 }
 
-button{
+.timer-btn{
   border-radius: 8px;
     padding: 8px 16px;
     width: 75px;
     height: 40px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 300px;
+}
+.delay-input{
+  display: flex;
+  flex-direction: column;
+
+}
+input{
+  padding: 8px;
 }
